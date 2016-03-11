@@ -39,6 +39,13 @@ main {
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
+
+  // full screen main
+  &,
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0
+    }
   }
 section {
   @extend .row;
