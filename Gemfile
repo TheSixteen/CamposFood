@@ -18,6 +18,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'high_voltage'
 gem 'simple_form'
+gem 'spree', '~> 3.0.7'
 group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
